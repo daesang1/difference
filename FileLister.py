@@ -57,7 +57,6 @@ def directory_list(original_directory, listing=[]):
 class FileLister:
     # print(directory_list(find_directory()) == file_list(find_directory()))
 
-    print(set(directory_list(""))
-          - set(file_list(")))
+    print(set(directory_list(find_directory())) - set(file_list(find_directory())))
 
     
